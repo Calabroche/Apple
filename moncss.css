@@ -1,0 +1,274 @@
+body{
+    width: auto;
+}
+
+/* NAVIGATION*/
+nav {
+    background-color: black;
+    width: auto;
+    height: 75px;
+    margin-top: -20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+ul{
+    width: auto;
+    display: flex; /*permet d'aligner mon texte horizontalement*/
+    justify-content: space-around; /* espace entre mes li*/
+    max-width: 990px; /* place que ça prend en largeur*/
+    margin: 0 auto;
+    list-style: none; /*enleve les . sur les ul*/
+    color: white;
+    opacity: 0.8;
+}
+li{
+    margin-top: 30px;
+    width: auto;
+}  
+
+/*Apple education*/
+.education{
+    background: linear-gradient(to right, rgb(205, 255, 224), rgb(218, 218, 247));
+    z-index: -2;
+    margin-top: -55px;
+}
+.apple-education img {
+    width: 800px;
+    height: 500px;
+    margin-top: -10px;
+    margin-left: 25%;
+    z-index: 1;
+    position: relative;
+}
+.education .typewriter h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+} 
+.education h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+.education h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+
+/* Classe pour la presentation des iphone 12*/
+.iphone img {
+    width: 100%;
+    margin-top: -250px;
+    height: 700px;
+    z-index: -1;
+    position: relative;
+}
+.typewriter h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.titresection h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+.titresection h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+
+/* Classe pour la presentation des iphones12pro*/
+.generalpro{
+    position: static;
+    display: block;
+}
+.iphone12 img {
+    margin-top: -280px;
+    height: 700px;
+    z-index: -3;
+    position: relative;
+    width: 100%;
+}
+.title h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+    margin-top: 3%;
+} 
+.generalpro .iphone12pro h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+.generalpro .iphone12pro h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+
+/* Les float*/
+.float {
+    width: 47%;
+    float: left;
+    padding: 20px;
+    border: 2px;
+    overflow: hidden;
+} 
+.float-child {
+    width: 47%;
+    float: right;
+    padding: 20px;
+    border: 2px;
+    overflow: hidden;
+} 
+
+/* Le float seul - Apple Dolby Atmos*/
+.float-container {
+    border: 3px solid #fff;
+    z-index: 1;
+}
+.float-solo{
+    width: 90%;
+    float: left;
+    padding: 20px;
+    border: 2px;
+} 
+
+/* Float Imac gauche*/
+.iMac img {
+    width: 153%;
+    height: 550px;
+    margin-top: -170px;
+    margin-left: -23%;
+    z-index: -1;
+    position: relative;
+}
+.iMac24 h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+.imacsection h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+
+/* Float Watch droite*/
+.iwatch img {
+    width: 103%;
+    height: 100%;
+    margin-top: -240px;
+    z-index: -1;
+    position: relative;
+}
+.watch h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.applewatch h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+/* Classe pour la presentation de l'iPadPro*/
+.IpadPro img {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: -3;
+    margin-top: -205px;
+}
+.iPad h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    margin-top: 600px;
+    z-index: 1;
+} 
+.iPad h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+.iPad h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+}
+
+/* Float NBA2K gauche*/
+.NBA img {
+    width: 153%;
+    height: 550px;
+    margin-top: -90px;
+    margin-left: -23%;
+    z-index: -1;
+    position: relative;
+}
+.NBAK h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+/* Float AppleTV+ droite*/
+.apple img {
+    width: 110%;
+    height: 600px;
+    margin-left: -40px;
+    z-index: -100;
+    margin-top: -20px;
+    position: relative;
+}
+.appletv h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    margin-top: -20%;
+}
+
+/* Classe pour la presentation de apple music atmos*/
